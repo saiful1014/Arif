@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:text="WELCOME"
+        android:textColor="#E8DEDE"
+        android:textSize="45sp"
+        android:textStyle="normal"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:text="WHAT YOU WANT TO DO ?"
+        android:layout_marginBottom="30dp"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:src="@drawable/dooner" />
+
+    <Button
+        android:backgroundTint="#1C2727"
+        android:id="@+id/donerId"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:text="DONATE"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/voolunteer" />
+    <Button
+        android:backgroundTint="#1C2727"
+        android:id="@+id/volunteerId"
+        android:layout_width="300dp"
+        android:layout_height="45dp"
+        android:text="BE A HELPING HAND"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+
+</LinearLayout>

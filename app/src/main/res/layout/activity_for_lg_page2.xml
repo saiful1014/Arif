@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/doooner"
+    android:orientation="vertical"
+    android:weightSum="5"
+    tools:context=".ForLgPage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="SIGN-IN"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <EditText
+            android:textColorHint="@color/white"
+            android:id="@+id/firstNameId"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="FIRST NAME"
+            android:padding="15dp"
+            android:textColor="#E9EAEA"
+            android:textSize="20sp"
+            android:textStyle="normal"
+
+            />
+
+        <EditText
+            android:id="@+id/lastNameId"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColorHint="@color/white"
+            android:hint="LAST NAME"
+            android:padding="15dp"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="normal"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="3.5"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="0dp">
+        <EditText
+            android:padding="15dp"
+            android:textColorHint="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ENTER YOUR EMAIL"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:id="@+id/email"
+            />
+
+        <EditText
+            android:padding="15dp"
+            android:id="@+id/phone_number"
+            android:textColorHint="@color/white"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ENTER YOUR PHONE NUMBER"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            />
+        <EditText
+            android:padding="15dp"
+            android:id="@+id/birthday"
+            android:textColorHint="@color/white"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ENTER YOUR BIRTH_ID"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            />
+        <EditText
+            android:padding="15dp"
+            android:id="@+id/epass"
+            android:textColorHint="@color/white"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ENTER YOUR PASSWORD"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            />
+        <EditText
+            android:padding="15dp"
+            android:id="@+id/cpass"
+            android:textColorHint="@color/white"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="CONFIRM PASSWORD"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:gravity="center"
+            android:layout_marginLeft="150dp"
+            android:id="@+id/signup"
+            android:textStyle="bold"
+            android:textSize="20sp"
+
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

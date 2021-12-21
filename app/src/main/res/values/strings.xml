@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">welcomeScreen</string>
+    <string name="name">\tDONATION APP\n </string>
+    <string name="about_us">An About Us Page is a page on your website that tells your readers all about you. \nIt includes a detailed description covering all aspects of your business and you as an entrepreneur.
+        \nThis can include the products or services you are offering, how you came into being as a business, your mission and vision, your aim, and maybe something about your future goals too.
+        \nYour About Us page is your perfect opportunity to tell a compelling story about your business.Even though an About Us page is one of the most important elements of a website, it is often one of the most overlooked elements.
+        \nCompared to a landing page, an About Us page help you communicate a range of things:The story of your brand and why you started it.
+The cause or customers that your business serves.
+Your business model or how your products are sourced/manufactured.
+As an important part of your website your About Us page can set you apart from your competitors in a way that can build your brand in a positive way.
+        \n\nOur goal is clear: to reach a zero hunger world. To do that, ShareTheMeal connects those in need to those who want to help. Every donation to the ShareTheMeal app supports WFP programmes - from providing homegrown school meals to children, to providing families with hot meals in th aftermath of disasters.
+
+There are 811 million hungry people in the world, but hunger is entirely solvable. We believe that together, we ca be the generation that ends global hunger
+
+How to Write an About Us Page</string>
+    <string name="title_activity_for_lg_page">ForLgPage</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>
